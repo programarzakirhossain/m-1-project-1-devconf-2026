@@ -57,9 +57,39 @@
     background-position: center;
 
     height: 786px;
-    
-}
+     position: relative;
 
+    /* display: grid;
+    /* grid-template-columns: auto 825px auto; */
+    /* grid-template-rows: auto 825px auto; */
+} 
+.hero_section h1{
+    text-align: center;
+    color: #ffff;
+    padding-top: 100px;
+    /* font-weight: 900; */
+    font-size: 80px;
+
+}
+.hero_section p{
+    text-align: center;
+    color: #ffff;
+    padding:10px 460px;
+    /* font-weight: 900; */
+    font-size: 20px;
+   
+
+}
+.hero_section button{
+    
+    font-size: 20px;
+   position: absolute;
+  top: 80%;
+  left: 42%;
+  width: 280px;
+  height: 75px;
+  
+}
 
 
 
