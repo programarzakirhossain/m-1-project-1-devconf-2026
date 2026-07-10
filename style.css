@@ -4,3 +4,65 @@
     box-sizing: border-box;
     
 }
+.container{
+    width: 1550px;
+    margin: auto;
+}
+/* <!-- nav section css start --> */
+.common_btn,.common_btn a {
+    background-color:#1D4ED8;
+    color: #ffff;
+    text-decoration: none;
+    width: 192px;
+    height: 56px;
+    padding:12px  ;
+   border-radius: 10px;
+   border: none;
+
+}
+
+.nav_section{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background:#ffff;
+    padding:24px 60px;
+}
+.logo_section{
+    height: 44px;
+    width: 144px;
+}
+.nav_section .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.nav_section .nav ul li{
+    display: block;
+    padding: 0 10px;
+}.nav_section .nav ul li a {
+    color: #575757;
+    text-decoration: none;
+}
+/* <!-- nav section css end --> */
+
+
+/* <!-- Hero section css statr  --> */
+
+
+.hero_section{
+    background-image: url(./assets/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 786px;
+    
+}
+
+
+
+
+
+       
+       /* <!-- Hero section css end  --> */
