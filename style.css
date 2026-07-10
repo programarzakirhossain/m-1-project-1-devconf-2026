@@ -90,9 +90,48 @@
   height: 75px;
   
 }
+ /* <!-- Hero section css end  --> */
 
 
+ /* <!-- Meet the Speakers  section  css start -->*/
+
+
+
+ .Meet_the_Speakers{
+    padding: 80px 60px;
+    
+ } .Meet_the_Speakers h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+ }
+.card_section{
+
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    gap: 40px;
+
+}
+.card{
+    background-color: #E5E7EB;
+    border-radius: 12px;
+    
+
+}
+.card p,h3{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.card>p{
+    color: #2563EB;
+}
+
+
+
+   /* <!-- Meet the Speakers  section   css end  -->
+
+ */ 
 
 
        
-       /* <!-- Hero section css end  --> */
+      
