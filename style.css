@@ -17,7 +17,7 @@
 /* <!-- nav section css start --> */
 .common_btn {
     background-color: #1D4ED8;
-    
+
     width: 192px;
     height: 56px;
 
@@ -28,13 +28,13 @@
 }
 
 .common_btn a {
-color: #ffff;
+    color: #ffff;
     text-decoration: none;
 }
 
 .common_btn:hover {
     background: #063cce;
-    
+
 }
 
 .nav_section {
@@ -184,7 +184,7 @@ h5 {
 
 .Secure_Your_Spot_section {
     text-align: center;
-    padding: 10px 60px 40px 60px;
+    padding: 0 60px 40px 60px;
 }
 
 .Secure_Your_Spot_section h1 {
@@ -195,69 +195,110 @@ h5 {
 
 .Secure_Your_Spot_section p {
     padding-top: 10px;
-    padding-bottom:5px;
-    
+    padding-bottom: 5px;
     color: #575757;
 }
 
 
-.pricing_card_section{
+.pricing_card_section {
     display: flex;
     gap: 24px;
     justify-content: space-around;
     margin: 0 60px;
     text-align: left;
 }
+
 .pricing-card {
     width: 100%;
     padding: 32px;
     background: #FFFFFF;
     border-radius: 12px;
     border: 1px solid #E5E7EB;
-    color:#333333 ;
-}
-/* 
-
-
-/* .pricing-card h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-} */
-/* 
-.pricing-card h3 {
-    font-size: 40px;
-    color: #0D1B2A;
-    margin-bottom: 20px;
+    color: #333333;
 }
 
-.pricing-card h2 span {
-    font-size: 18px;
-    color: #666;
+.pricing-card i {
+    color: #063cce;
+    font-size: 8px;
+    margin: 0 5px 20px 0;
+
+
 }
+
+.pricing-card div {
+    height: 1px;
+    width: 100%;
+    background-color: #E5E7EB;
+    margin: auto;
+
+
+}
+
 
 .pricing-card ul {
+    padding: 10px 0;
     list-style: none;
-    padding: 0;
-    margin: 20px 0;
+
 }
 
-.pricing-card ul li {
-    margin: 12px 0;
-} */ */
+
 
 .pricing-card button {
     width: 100%;
     padding: 12px;
     border: none;
     border-radius: 8px;
-    background: #2563eb;
-    color: #fff;
+    background: #ffff;
+    color: #063cce;
+    border: 1px solid #1d4ed8;
     font-size: 16px;
     cursor: pointer;
+    margin-top: 50px;
 }
 
 .pricing-card button:hover {
     background: #1d4ed8;
+    color: #ffff;
+}
+
+.pro_card {
+
+    background: #0D1B2A;
+
+}
+
+.pro_card h2,
+.pro_card li {
+    color: #ffff;
+}
+
+.pro_card p {
+    color: #93C5FD;
+}
+
+.pro_card button {
+    background: #063cce;
+    color: #ffff;
+}
+
+.pro_card button:hover {
+    background: #ffff;
+    color: #063cce;
 }
 
 /* <!-- Secure Your Spot css end --> */
+
+
+
+
+
+
+/* <!-- Footer Section css start  --> */
+
+
+
+
+
+
+
+/* <!-- Footer Section  css end  --> */
