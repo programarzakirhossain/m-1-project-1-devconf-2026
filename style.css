@@ -297,8 +297,36 @@ h5 {
 
 
 
+.footer_section{
 
+    background-color: #0D1B2A;
+}
+.footer{
+  display: flex;  
+  justify-content: space-around;
+  align-items: center;
+  color:#575757 ;
+  padding: 40px;
+}
+.footer_socialLink_section p{
+    color: #ffff;
+}
 
-
+.footer_socialLink_section ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+.footer_socialLink_section ul li a{
+    text-decoration: none;
+}
+.footer_socialLink_section ul li a i{
+    font-size: 30px;
+}
+.footer_logo_section img{
+    color: #FFFFFF;
+    background:#fff;
+}
 
 /* <!-- Footer Section  css end  --> */
