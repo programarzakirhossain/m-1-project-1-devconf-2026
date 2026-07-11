@@ -1,69 +1,92 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
 }
-.container{
+
+.container {
     width: 1550px;
     margin: auto;
 }
+
 /* <!-- nav section css start --> */
-.common_btn,.common_btn a {
-    background-color:#1D4ED8;
-    color: #ffff;
-    text-decoration: none;
+.common_btn {
+    background-color: #1D4ED8;
+    
     width: 192px;
     height: 56px;
-    padding:12px  ;
-   border-radius: 10px;
-   border: none;
+
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
 
 }
 
-.nav_section{
+.common_btn a {
+color: #ffff;
+    text-decoration: none;
+}
+
+.common_btn:hover {
+    background: #063cce;
+    
+}
+
+.nav_section {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
-    background:#ffff;
-    padding:24px 60px;
+    background: #ffff;
+    padding: 24px 60px;
 }
-.logo_section{
+
+.logo_section {
     height: 44px;
     width: 144px;
 }
+
 .nav_section .nav ul {
     list-style: none;
     display: flex;
     gap: 10px;
 }
-.nav_section .nav ul li{
+
+.nav_section .nav ul li {
     display: block;
     padding: 0 10px;
-}.nav_section .nav ul li a {
+}
+
+.nav_section .nav ul li a {
     color: #575757;
     text-decoration: none;
 }
+
 /* <!-- nav section css end --> */
 
 
 /* <!-- Hero section css statr  --> */
 
 
-.hero_section{
+.hero_section {
     background-image: url(./assets/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
     height: 786px;
-     position: relative;
+    position: relative;
 
     /* display: grid;
     /* grid-template-columns: auto 825px auto; */
     /* grid-template-rows: auto 825px auto; */
-} 
-.hero_section h1{
+}
+
+.hero_section h1 {
     text-align: center;
     color: #ffff;
     padding-top: 100px;
@@ -71,67 +94,170 @@
     font-size: 80px;
 
 }
-.hero_section p{
+
+.hero_section p {
     text-align: center;
     color: #ffff;
-    padding:10px 460px;
+    padding: 10px 460px;
     /* font-weight: 900; */
     font-size: 20px;
-   
+
 
 }
-.hero_section button{
-    
+
+.hero_section button {
+
     font-size: 20px;
-   position: absolute;
-  top: 80%;
-  left: 42%;
-  width: 280px;
-  height: 75px;
-  
+    position: absolute;
+    top: 80%;
+    left: 42%;
+    width: 280px;
+    height: 75px;
+
 }
- /* <!-- Hero section css end  --> */
+
+/* <!-- Hero section css end  --> */
 
 
- /* <!-- Meet the Speakers  section  css start -->*/
+/* <!-- Meet the Speakers  section  css start -->*/
 
 
 
- .Meet_the_Speakers{
-    padding: 80px 60px;
-    
- } .Meet_the_Speakers h1{
+.Meet_the_Speakers {
+    padding: 40px 60px;
+    margin-bottom: 80px;
+}
+
+.Meet_the_Speakers h1 {
     text-align: center;
     padding-top: 20px;
-    font-size: 50px;
- }
-.card_section{
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.card_section {
 
     display: grid;
-    grid-template-columns: 1fr  1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 40px;
 
 }
-.card{
-    background-color: #E5E7EB;
+
+.card {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
     border-radius: 12px;
-    
+    overflow: hidden;
+
 
 }
-.card p,h3{
-    margin-left: 30px;
-    margin-bottom: 20px;
+
+.card_img img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
-.card>p{
+
+.card p,
+h3,
+h5 {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.card h5 {
+    margin-top: 20px;
     color: #2563EB;
 }
 
+.card p {
+    color: #575757;
+}
+
+/* <!-- Meet the Speakers  section   css end  -->
+
+ */
 
 
-   /* <!-- Meet the Speakers  section   css end  -->
+/* <!-- Secure Your Spot css start  --> */
 
- */ 
+.Secure_Your_Spot_section {
+    text-align: center;
+    padding: 10px 60px 40px 60px;
+}
+
+.Secure_Your_Spot_section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #0D1B2A;
+}
+
+.Secure_Your_Spot_section p {
+    padding-top: 10px;
+    padding-bottom:5px;
+    
+    color: #575757;
+}
 
 
-       
-      
+.pricing_card_section{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    margin: 0 60px;
+    text-align: left;
+}
+.pricing-card {
+    width: 100%;
+    padding: 32px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid #E5E7EB;
+    color:#333333 ;
+}
+/* 
+
+
+/* .pricing-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+} */
+/* 
+.pricing-card h3 {
+    font-size: 40px;
+    color: #0D1B2A;
+    margin-bottom: 20px;
+}
+
+.pricing-card h2 span {
+    font-size: 18px;
+    color: #666;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.pricing-card ul li {
+    margin: 12px 0;
+} */ */
+
+.pricing-card button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.pricing-card button:hover {
+    background: #1d4ed8;
+}
+
+/* <!-- Secure Your Spot css end --> */
