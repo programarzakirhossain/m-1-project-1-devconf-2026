@@ -67,7 +67,10 @@
     color: #575757;
     text-decoration: none;
 }
-
+.nav ul li a:hover {
+    color: #080808;
+    text-decoration: none;
+}
 /* <!-- nav section css end --> */
 
 
@@ -84,9 +87,6 @@
     height: 786px;
     position: relative;
 
-    /* display: grid;
-    /* grid-template-columns: auto 825px auto; */
-    /* grid-template-rows: auto 825px auto; */
 }
 
 .hero_section h1 {
@@ -292,7 +292,137 @@ h5 {
 /* <!-- Secure Your Spot css end --> */
 
 
+/* AI section css start  */
 
+.learning-tracks{
+    padding:100px 8%;
+    background:#0b1220;
+    color:#fff;
+}
+
+.section-heading{
+    max-width:700px;
+    margin:auto;
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.badge{
+    display:inline-block;
+    background:#2563eb;
+    color:#fff;
+    padding:8px 18px;
+    border-radius:30px;
+    margin-bottom:20px;
+    font-size:14px;
+}
+
+.section-heading h2{
+    font-size:42px;
+    margin-bottom:18px;
+}
+
+.section-heading p{
+    color:#b8c1d1;
+    line-height:1.8;
+}
+
+.tracks{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}
+
+.track-card{
+    background:#111827;
+    padding:28px;
+    border-radius:18px;
+    border:1px solid rgba(255,255,255,.08);
+    transition:.3s;
+}
+
+.track-card:hover{
+    transform:translateY(-8px);
+    border-color:#3b82f6;
+    box-shadow:0 15px 40px rgba(59,130,246,.2);
+}
+
+.track-info{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:14px;
+}
+
+.track-info h3{
+    font-size:22px;
+}
+
+.track-info span{
+    color:#60a5fa;
+    font-weight:bold;
+}
+
+.progress-bar{
+    width:100%;
+    height:12px;
+    background:#1f2937;
+    border-radius:50px;
+    overflow:hidden;
+    margin-bottom:18px;
+}
+
+.progress{
+    height:100%;
+    border-radius:50px;
+    background:linear-gradient(90deg,#06b6d4,#3b82f6,#8b5cf6);
+}
+
+.ai{
+    width:96%;
+}
+
+.cloud{
+    width:90%;
+}
+
+.frontend{
+    width:92%;
+}
+
+.security{
+    width:82%;
+}
+
+.mobile{
+    width:78%;
+}
+
+.startup{
+    width:88%;
+}
+
+.track-card p{
+    color:#cbd5e1;
+    line-height:1.7;
+}
+
+@media(max-width:768px){
+
+.learning-tracks{
+    padding:70px 20px;
+}
+
+.section-heading h2{
+    font-size:32px;
+}
+
+.track-info h3{
+    font-size:18px;
+}
+
+}
+/* AI section css end   */
 
 
 
@@ -369,3 +499,4 @@ h5 {
 
 
 /* <!-- Footer Section  css end  --> */
+
